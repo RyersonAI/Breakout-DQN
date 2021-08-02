@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-
-
 # Import necessary libraries 
 import gym
 import random 
@@ -34,8 +31,8 @@ class DQN(object):
         model_files.sort()
         
         
-        self.model = load_model('models/breakout/breakout_DQN_52.0.h5')
-        self.target_model = load_model('models/breakout/breakout_DQN_52.0.h5')
+        self.model = load_model('breakout_dqn_97.0.h5')
+        self.target_model = load_model('breakout_dqn_97.0.h5')
         
         '''
         self.target_model = Sequential([
@@ -224,7 +221,8 @@ def generate_episode(dqn, render=False):
 
 
 dqn = DQN(env)
-q_learning(dqn, render=True)
+q_learning(dqn, render=False)
+
 
 def demo(num_episodes=5):
 
