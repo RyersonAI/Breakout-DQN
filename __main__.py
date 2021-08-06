@@ -136,7 +136,7 @@ def record(model_filepath='breakout_dqn_97.0.h5', num_episodes=1):
 
     
     clip = ImageSequenceClip(frames, fps=40)
-    clip.write_gif('sample.gif', fps=40)
+    clip.write_gif('img/during-training.gif', fps=40)
 
 
 
