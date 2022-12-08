@@ -7,7 +7,7 @@ baselines==0.1.5
 box2d-py==2.3.8
 cached-property==1.5.2
 cachetools==4.1.1
-certifi==2020.6.20
+certifi==2022.12.7
 cffi==1.14.0
 chardet==3.0.4
 charset-normalizer==2.0.4
